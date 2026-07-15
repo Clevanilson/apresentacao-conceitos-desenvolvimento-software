@@ -1,0 +1,57 @@
+:root {
+  --cor-fundo: #f0f2f5;
+  --cor-superficie: #ffffff;
+  --cor-borda: #e2e6eb;
+  --cor-texto: #1c2430;
+  --cor-texto-suave: #5c6775;
+  --cor-destaque: #1a5f6b;
+  --cor-destaque-suave: #e6f1f3;
+  --cor-menu-fundo: #162029;
+  --cor-menu-texto: #c5cdd6;
+  --cor-menu-titulo: #8b96a3;
+  --cor-menu-ativo: #2dd4bf;
+  --espacamento-xs: 0.5rem;
+  --espacamento-sm: 0.75rem;
+  --espacamento-md: 1.25rem;
+  --espacamento-lg: 2rem;
+  --espacamento-xl: 2.5rem;
+  --raio: 10px;
+  --largura-menu: 280px;
+  --fonte-corpo: 'IBM Plex Sans', sans-serif;
+  --fonte-titulo: 'IBM Plex Sans', sans-serif;
+  --sombra: 0 1px 2px rgba(22, 32, 41, 0.04), 0 8px 24px rgba(22, 32, 41, 0.06);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+body {
+  font-family: var(--fonte-corpo);
+  color: var(--cor-texto);
+  background: var(--cor-fundo);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+}
