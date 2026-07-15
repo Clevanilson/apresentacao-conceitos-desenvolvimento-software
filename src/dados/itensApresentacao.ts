@@ -67,6 +67,11 @@ export const gruposApresentacao: GrupoApresentacao[] = [
     titulo: 'Orientação a objetos',
     itens: [
       {
+        id: 'introducao-orientacao-objetos',
+        titulo: 'Introdução à orientação a objetos',
+        caminho: '/orientacao-objetos/introducao',
+      },
+      {
         id: 'abstracao',
         titulo: 'Abstração',
         caminho: '/orientacao-objetos/abstracao',

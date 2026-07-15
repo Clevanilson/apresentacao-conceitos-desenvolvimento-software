@@ -10,6 +10,7 @@ import PaginaEstruturaControleWhile from '@/paginas/logica/PaginaEstruturaContro
 import PaginaEstruturaControleDoWhile from '@/paginas/logica/PaginaEstruturaControleDoWhile.vue'
 import PaginaArrays from '@/paginas/logica/PaginaArrays.vue'
 import PaginaFuncoes from '@/paginas/logica/PaginaFuncoes.vue'
+import PaginaIntroducaoOrientacaoObjetos from '@/paginas/orientacao-objetos/PaginaIntroducaoOrientacaoObjetos.vue'
 import PaginaAbstracao from '@/paginas/orientacao-objetos/PaginaAbstracao.vue'
 import PaginaEncapsulamento from '@/paginas/orientacao-objetos/PaginaEncapsulamento.vue'
 import PaginaHeranca from '@/paginas/orientacao-objetos/PaginaHeranca.vue'
@@ -66,6 +67,11 @@ const roteador = createRouter({
       path: '/logica/funcoes',
       name: 'funcoes',
       component: PaginaFuncoes,
+    },
+    {
+      path: '/orientacao-objetos/introducao',
+      name: 'introducao-orientacao-objetos',
+      component: PaginaIntroducaoOrientacaoObjetos,
     },
     {
       path: '/orientacao-objetos/abstracao',
