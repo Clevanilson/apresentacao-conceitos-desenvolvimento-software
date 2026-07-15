@@ -21,14 +21,44 @@ export const gruposApresentacao: GrupoApresentacao[] = [
         caminho: '/logica/variaveis',
       },
       {
-        id: 'estruturas-controle-funcoes',
-        titulo: 'Estruturas de controles e funções',
-        caminho: '/logica/estruturas-controle-funcoes',
+        id: 'estrutura-controle-if',
+        titulo: 'Estrutura de controle 1: if',
+        caminho: '/logica/estrutura-controle-if',
+      },
+      {
+        id: 'estrutura-controle-else',
+        titulo: 'Estrutura de controle 2: else',
+        caminho: '/logica/estrutura-controle-else',
+      },
+      {
+        id: 'estrutura-controle-switch',
+        titulo: 'Estrutura de controle 3: switch',
+        caminho: '/logica/estrutura-controle-switch',
+      },
+      {
+        id: 'estrutura-controle-for',
+        titulo: 'Estrutura de controle 4: for',
+        caminho: '/logica/estrutura-controle-for',
+      },
+      {
+        id: 'estrutura-controle-while',
+        titulo: 'Estrutura de controle 5: while',
+        caminho: '/logica/estrutura-controle-while',
+      },
+      {
+        id: 'estrutura-controle-do-while',
+        titulo: 'Estrutura de controle 6: do-while',
+        caminho: '/logica/estrutura-controle-do-while',
       },
       {
         id: 'arrays',
         titulo: 'Arrays',
         caminho: '/logica/arrays',
+      },
+      {
+        id: 'funcoes',
+        titulo: 'Funções',
+        caminho: '/logica/funcoes',
       },
     ],
   },

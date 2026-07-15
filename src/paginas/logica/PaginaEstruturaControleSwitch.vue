@@ -4,6 +4,6 @@ import ContainerBase from '@/componentes/ContainerBase.vue'
 
 <template>
   <ContainerBase>
-    <!-- Conteúdo da apresentação: Estruturas de controles e funções -->
+    <!-- Conteúdo da apresentação: Estrutura de controle 3 — switch -->
   </ContainerBase>
 </template>
