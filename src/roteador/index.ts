@@ -15,6 +15,10 @@ import PaginaAbstracao from '@/paginas/orientacao-objetos/PaginaAbstracao.vue'
 import PaginaEncapsulamento from '@/paginas/orientacao-objetos/PaginaEncapsulamento.vue'
 import PaginaHeranca from '@/paginas/orientacao-objetos/PaginaHeranca.vue'
 import PaginaPolimorfismo from '@/paginas/orientacao-objetos/PaginaPolimorfismo.vue'
+import PaginaIntroducaoArquiteturaSoftware from '@/paginas/arquitetura-software/PaginaIntroducaoArquiteturaSoftware.vue'
+import PaginaModel from '@/paginas/arquitetura-software/PaginaModel.vue'
+import PaginaView from '@/paginas/arquitetura-software/PaginaView.vue'
+import PaginaController from '@/paginas/arquitetura-software/PaginaController.vue'
 
 const roteador = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -92,6 +96,26 @@ const roteador = createRouter({
       path: '/orientacao-objetos/polimorfismo',
       name: 'polimorfismo',
       component: PaginaPolimorfismo,
+    },
+    {
+      path: '/arquitetura-software/introducao',
+      name: 'introducao-arquitetura-software',
+      component: PaginaIntroducaoArquiteturaSoftware,
+    },
+    {
+      path: '/arquitetura-software/model',
+      name: 'model',
+      component: PaginaModel,
+    },
+    {
+      path: '/arquitetura-software/view',
+      name: 'view',
+      component: PaginaView,
+    },
+    {
+      path: '/arquitetura-software/controller',
+      name: 'controller',
+      component: PaginaController,
     },
   ],
 })

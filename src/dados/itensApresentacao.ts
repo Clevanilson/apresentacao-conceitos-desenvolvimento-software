@@ -93,6 +93,32 @@ export const gruposApresentacao: GrupoApresentacao[] = [
       },
     ],
   },
+  {
+    id: 'arquitetura-software',
+    titulo: 'Arquitetura de software (MVC)',
+    itens: [
+      {
+        id: 'introducao-arquitetura-software',
+        titulo: 'Introdução',
+        caminho: '/arquitetura-software/introducao',
+      },
+      {
+        id: 'model',
+        titulo: 'Model',
+        caminho: '/arquitetura-software/model',
+      },
+      {
+        id: 'view',
+        titulo: 'View',
+        caminho: '/arquitetura-software/view',
+      },
+      {
+        id: 'controller',
+        titulo: 'Controller',
+        caminho: '/arquitetura-software/controller',
+      },
+    ],
+  },
 ]
 
 export const sequenciaApresentacao: ItemApresentacao[] = gruposApresentacao.flatMap(
