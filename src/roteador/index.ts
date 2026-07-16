@@ -19,6 +19,8 @@ import PaginaIntroducaoArquiteturaSoftware from '@/paginas/arquitetura-software/
 import PaginaModel from '@/paginas/arquitetura-software/PaginaModel.vue'
 import PaginaView from '@/paginas/arquitetura-software/PaginaView.vue'
 import PaginaController from '@/paginas/arquitetura-software/PaginaController.vue'
+import PaginaInterfaces from '@/paginas/topicos-avancados/PaginaInterfaces.vue'
+import PaginaClassesAbstratas from '@/paginas/topicos-avancados/PaginaClassesAbstratas.vue'
 
 const roteador = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -116,6 +118,16 @@ const roteador = createRouter({
       path: '/arquitetura-software/controller',
       name: 'controller',
       component: PaginaController,
+    },
+    {
+      path: '/topicos-avancados/interfaces',
+      name: 'interfaces',
+      component: PaginaInterfaces,
+    },
+    {
+      path: '/topicos-avancados/classes-abstratas',
+      name: 'classes-abstratas',
+      component: PaginaClassesAbstratas,
     },
   ],
 })

@@ -119,6 +119,22 @@ export const gruposApresentacao: GrupoApresentacao[] = [
       },
     ],
   },
+  {
+    id: 'topicos-avancados',
+    titulo: 'Tópicos avançados',
+    itens: [
+      {
+        id: 'interfaces',
+        titulo: 'Interfaces',
+        caminho: '/topicos-avancados/interfaces',
+      },
+      {
+        id: 'classes-abstratas',
+        titulo: 'Classes abstratas',
+        caminho: '/topicos-avancados/classes-abstratas',
+      },
+    ],
+  },
 ]
 
 export const sequenciaApresentacao: ItemApresentacao[] = gruposApresentacao.flatMap(
