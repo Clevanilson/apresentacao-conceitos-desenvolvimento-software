@@ -1,6 +1,18 @@
 <script setup lang="ts">
+import { ref, watch } from 'vue'
+import { useRoute } from 'vue-router'
 import MenuLateral from '@/componentes/MenuLateral.vue'
 import NavegacaoSetas from '@/componentes/NavegacaoSetas.vue'
+
+const rota = useRoute()
+const principal = ref<HTMLElement | null>(null)
+
+watch(
+  () => rota.fullPath,
+  () => {
+    principal.value?.scrollTo({ top: 0, left: 0 })
+  },
+)
 </script>
 
 <template>
@@ -8,7 +20,7 @@ import NavegacaoSetas from '@/componentes/NavegacaoSetas.vue'
     <MenuLateral />
 
     <div class="layout-apresentacao__conteudo">
-      <main class="layout-apresentacao__principal">
+      <main ref="principal" class="layout-apresentacao__principal">
         <slot />
       </main>
 
